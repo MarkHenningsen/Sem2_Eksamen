@@ -1,0 +1,58 @@
+﻿body, html {
+    height: 100%;
+    font-family: 'Cardo', serif !important;
+    color: #2F3A3D;
+}
+
+    body p {
+        font-family: 'Cardo', serif !important;
+        color: #2F3A3D;
+    }
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase !important;
+}
+
+/******************************** OVERSKRIV TOPBUILDER FONTS */
+
+.tittle h2 {
+    font: 600 26px 'Montserrat', sans-serif !important;
+}
+
+.tittle h4 {
+    font: 400 14px "Cardo", serif !important;
+    text-transform:none;
+}
+
+.our_services_area .portfolio_inner_area .portfolio_filter ul li a {
+    font: 400 14px "Montserrat", sans-serif !important;
+}
+
+.nav-link {
+    color: rgba(255,255,255,.5);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight:600;
+    text-transform: uppercase;
+}
+    /************************************************************/
+    .parallax {
+    /* The image used */
+    background-image: url('/images/hero.jpg');
+    /* Full height */
+    height: 60vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*NAVBAR*/
+
+.bg-dark {
+    background-color: #2F3A3D !important;
+}

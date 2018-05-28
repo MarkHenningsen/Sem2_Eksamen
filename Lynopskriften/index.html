@@ -1,51 +1,112 @@
-﻿    <!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-
-  <head>
-
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Lynopskriften.dk</title>
-
     <!-- Bootstrap CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Vores stylesheet -->
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <!-- TopBuilder style -->
+    <link href="vendor/topbuilder/style.css" rel="stylesheet" />
 
-  </head>
-
-  <body>
-
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Montserrat:400,500,600,700,900" rel="stylesheet">
+</head>
+<body>
     <!-- *********************** NAVBAR *********************** -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Lynopskriften</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Forside
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Hurtig</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Billig</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Kontakt</a>
-            </li>
-          </ul>
+        <div class="container">
+            <a class="navbar-brand" href="#">Lynopskriften</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            Forside
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="opskrifter.html">Opskrifter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
+    <div class="parallax"></div>
 
-    
+    <div style="height:1000px;background-color:#6A8E91;font-size:36px">
+        <h2>Udvalgte </h2>
+    </div>
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+        <div class="container">
+            <div class="content-section-heading text-center">
+                <h3 class="text-secondary mb-0">Portfolio</h3>
+                <h2 class="mb-5">Recent Projects</h2>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <span class="caption">
+                            <span class="caption-content">
+                                <h2>Stationary</h2>
+                                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                            </span>
+                        </span>
+                        <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <span class="caption">
+                            <span class="caption-content">
+                                <h2>Ice Cream</h2>
+                                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                            </span>
+                        </span>
+                        <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <span class="caption">
+                            <span class="caption-content">
+                                <h2>Strawberries</h2>
+                                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                            </span>
+                        </span>
+                        <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <span class="caption">
+                            <span class="caption-content">
+                                <h2>Workspace</h2>
+                                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                            </span>
+                        </span>
+                        <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="parallax"></div>
 
     <!-- Footer -->
     <!--<footer class="py-5 bg-dark">
@@ -53,11 +114,10 @@
         <p class="m-0 text-center text-white">Copyright &copy; Lynopskriften 2018</p>
       </div>
     </footer>-->
-
-    <!-- Bootstrap core JavaScript -->
+    <!-- SCRIPTS -->
+    <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  </body>
-
+    <!-- Bootstrap -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
 </html>
