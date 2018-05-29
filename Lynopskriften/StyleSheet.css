@@ -1,12 +1,12 @@
 ﻿body, html {
     height: 100%;
     font-family: 'Cardo', serif !important;
-    color: #2F3A3D;
+    color: #2E3841;
 }
 
     body p {
         font-family: 'Cardo', serif !important;
-        color: #2F3A3D;
+        color: #2E3841;
     }
 
 h1, h2, h3, h4 {
@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
 
 .tittle h4 {
     font: 400 14px "Cardo", serif !important;
-    text-transform:none;
+    text-transform: none;
 }
 
 .our_services_area .portfolio_inner_area .portfolio_filter ul li a {
@@ -34,13 +34,41 @@ h1, h2, h3, h4 {
     color: rgba(255,255,255,.5);
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    font-weight:600;
+    font-weight: 600;
     text-transform: uppercase;
 }
-    /************************************************************/
-    .parallax {
+
+
+
+
+/***************************************************************/
+
+/******************************** OVERSKRIV TOPBUILDER FARVER */
+
+
+.our_services_area {
+    background: #2e3841;
+}
+
+    .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner .gallery_hover {
+        background-color: rgba(255, 183, 96, 0.851) !important;
+    }
+
+.tittle h2:after {
+    background: #FFB760 !important;
+}
+
+
+.our_services_area .portfolio_inner_area .portfolio_filter ul li:hover a, .our_services_area .portfolio_inner_area .portfolio_filter ul li:focus a, .our_services_area .portfolio_inner_area .portfolio_filter ul li.active a {
+    color: #FFB760 !important;
+}
+
+/***************************************************************/
+
+
+.parallax {
     /* The image used */
-    background-image: url('/images/hero.jpg');
+    background-image: url('images/baggrund_test.jpg');
     /* Full height */
     height: 60vh;
     /* Create the parallax scrolling effect */
@@ -51,8 +79,24 @@ h1, h2, h3, h4 {
 }
 
 
+
+
+
 /*NAVBAR*/
 
 .bg-dark {
-    background-color: #2F3A3D !important;
+    background-color: #2E3841 !important;
+}
+
+.navbar {
+    padding: 1.5rem 0rem;
+}
+
+@media (min-width: 768px) {
+    .navbar-brand.abs {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
 }
